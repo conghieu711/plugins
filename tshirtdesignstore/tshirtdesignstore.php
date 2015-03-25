@@ -10,10 +10,10 @@
  * Domain Path: /language/
  * License: GPL2
  */
-define('SD_URI',plugin_dir_url( __FILE__ ));
-define('SD_ABS',plugin_dir_path( __FILE__ ));
-define('SD_NAME','tshirtdesignstore');
-require_once(SD_ABS.'functions.php');
+define( 'SD_URI',plugin_dir_url( __FILE__ ) );
+define( 'SD_ABS',plugin_dir_path( __FILE__ ) );
+define( 'SD_NAME','tshirtdesignstore' );
+require_once( SD_ABS.'functions.php' );
 class tshirtdesignstore {
 	public function __construct(){
 		//add_action('admin_menu',array($this,'admin_menu'));
